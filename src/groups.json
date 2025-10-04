@@ -1,0 +1,20 @@
+[
+  {
+    "dn": "cn=layer1,ou=groups,dc=mirorim,dc=ddns,dc=net",
+    "gidNumber": "1",
+    "cn": "layer1",
+    "objectClass": ["posixGroup", "top"],
+    "memberUid": [
+      "uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+      "uid=11,uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+      "uid=21,uid=11,uid=01,ou=users,dc=mirorim,dc=ddns,dc=net"
+    ]
+  },
+  {
+    "dn": "cn=layer2,ou=groups,dc=mirorim,dc=ddns,dc=net",
+    "gidNumber": "1",
+    "cn": "layer2",
+    "objectClass": ["posixGroup", "top"],
+    "memberUid": "uid=02,ou=users,dc=mirorim,dc=ddns,dc=net"
+  }
+]

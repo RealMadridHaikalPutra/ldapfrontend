@@ -1,0 +1,40 @@
+[
+  {
+    "dn": "uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+    "uid": "01",
+    "mail": "level1@gmail.com",
+    "givenName": "level1",
+    "cn": "level1",
+    "sn": "level1",
+    "objectClass": ["inetOrgPerson", "organizationalPerson", "person", "top"]
+  },
+  {
+    "dn": "uid=11,uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+    "uid": "11",
+    "objectClass": ["inetOrgPerson", "organizationalPerson", "person", "top"],
+    "manager": "uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+    "cn": "level11",
+    "sn": "level11",
+    "givenName": "level11",
+    "mail": "level11@gmail.com"
+  },
+  {
+    "dn": "uid=02,ou=users,dc=mirorim,dc=ddns,dc=net",
+    "uid": "02",
+    "objectClass": ["inetOrgPerson", "organizationalPerson", "person", "top"],
+    "cn": "level2",
+    "sn": "level2",
+    "givenName": "level2",
+    "mail": "level2@gmail.com"
+  },
+  {
+    "dn": "uid=21,uid=11,uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+    "objectClass": ["inetOrgPerson", "organizationalPerson", "person", "top"],
+    "manager": "uid=11,uid=01,ou=users,dc=mirorim,dc=ddns,dc=net",
+    "uid": "21",
+    "cn": "level21",
+    "sn": "level21",
+    "givenName": "level21",
+    "mail": "level21@gmail.com"
+  }
+]
